@@ -1,0 +1,30 @@
+{
+  "name": "Rotated Header Table",
+  "organization": "You",
+  "description": "HTML table with 90° rotated column headers",
+  "supportUrl": "https://example.com",
+  "privacyPolicyUrl": "https://example.com/privacy",
+  "devMode": true,
+  "components": [
+    {
+      "id": "rotated_table",
+      "resource": "viz.js",
+      "name": "Rotated Header Table",
+      "description": "Vertical (rotated) column headers",
+      "data": {
+        "tables": [
+          {
+            "id": "main",
+            "label": "Main",
+            "columns": [
+              { "id": "dimension", "label": "Dimension", "type": "TEXT", "concept": "DIMENSION" },
+              { "id": "metric_a", "label": "Metric A", "type": "NUMBER", "concept": "METRIC" },
+              { "id": "metric_b", "label": "Metric B", "type": "NUMBER", "concept": "METRIC" }
+            ]
+          }
+        ]
+      },
+      "style": {}
+    }
+  ]
+}
